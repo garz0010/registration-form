@@ -6,61 +6,71 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <link href="css/main.css" rel="stylesheet">
   <link href="css/grid.css" rel="stylesheet">
-  <link href="css/modules" rel="stylesheet">
+  <link href="css/modules.css" rel="stylesheet">
   <link href="css/type.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
 
-<section>
-  <div class="">
-    <h1>Want to go to Mars?</h1>
-    <hr>
-    <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
-    <h2>Personal details</h2> <hr>
-  </div>
-
-<form class="" method="POST" action="">
-  <div class="">
-    <label for="name">Name</label>
-    <input id="name=" required>
-  </div>
-  <div class="">
-    <label for="age">Age</label>
-    <input id="age" required>
-  </div>
-  <div class="">
-    <label for="email"></label>
-    <input id="email" type="email">
-  </div>
-  <div class="">
-    <label for="Physical fitness">Physical fitness</label>
-    <select id="Physical fitness">
-      <option>Super-human</option>
-      <option>Fit as a fiddle</option>
-      <option>Not terribly stron</option>
-      <option>A little couch-potato-y</option>
-    </select>
-  </div>
-  <div class="">
-    <label for="address">Address</label>
-    <input id="address">
-  </div>
-
-    <h2>Mission statement</h2><hr>
-    <div class="">
-      <label for="details">Why do you want to go to Mars?</label>
-      <textarea id="details" required></textarea>
-    </div>
-    <div class="">
-      <button type="submit">Register for the trip!</button>
-    </div>
-
-</form>
+  <section class="contact">
 
 
-</section>
+    <form class="" method="POST" action="https://formspree.io/garz0010@algonquinlive.com">
+      <h1>Want to go to Mars?</h1>
+
+      <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
+      <fieldset>
+        <legend>Personal details</legend>
+        <div class="grid">
 
 
-</body>
-</html>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 push">
+          <label for="name">Name</label>
+          <input id="name=" required>
+        </div>
+
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 push">
+          <label for="age">Age</label>
+          <input id="age" required>
+        </div>
+
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 push">
+          <label for="email">Email</label>
+          <input id="email" type="email">
+        </div>
+
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 push">
+          <label for="physical-fit">Physical fitness</label>
+          <select id="physical-fit" name="fitness">
+            <option>Super-human</option>
+            <option>Fit as a fiddle</option>
+            <option>Not terribly stron</option>
+            <option>A little couch-potato-y</option>
+          </select>
+        </div>
+
+          </div>
+        <div class="">
+          <label for="address">Address</label>
+          <input id="address">
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>Mission statement</legend>
+        <div class="">
+          <label for="details">Why do you want to go to Mars?</label>
+          <textarea id="details" required></textarea>
+        </div>
+        </fieldset>
+
+          <div class="">
+            <button class="btn" type="submit">Register for the trip!</button>
+          </div>
+
+        </form>
+      </section>
+
+
+    </body>
+    </html>
