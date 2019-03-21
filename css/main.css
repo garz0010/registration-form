@@ -1,7 +1,8 @@
 .contact {
   font-family: 'Open Sans', sans-serif;
-  background-color: f2f2f2;
+  background-color: #f2f2f2;
   padding: 1rem;
+  padding-top: .5rem;
 }
 
 h1 {
