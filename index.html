@@ -16,62 +16,62 @@
   <!-- <section class="contact pad-t-2"> -->
   <div class="wrapper">
 
-  <form class="pad-t-2 pad-b-2 gutter" method="POST" action="https://formspree.io/garz0010@algonquinlive.com">
-    <h1 class="normal">Want to go to Mars?</h1>
+    <form class="pad-t-2 pad-b-2 gutter" method="POST" action="https://formspree.io/garz0010@algonquinlive.com">
+      <h1 class="normal">Want to go to Mars?</h1>
 
-    <p class="mega">We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
-    <fieldset>
-      <legend class="italic tetra">Personal details</legend>
-      <div class="grid">
+      <p class="mega">We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
+      <fieldset>
+        <legend class="italic tetra">Personal details</legend>
+        <div class="grid">
 
-        <div class="pad-t unit xs-1 s-1 m-1 l-1-2 space-right">
-          <label class="mega" for="name">Name</label>
-          <input id="name" required>
+          <div class="pad-t unit xs-1 s-1 m-1 l-1-2 space-right">
+            <label class="mega" for="name">Name</label>
+            <input id="name" required>
+          </div>
+
+          <div class="pad-t unit xs-1 s-1 m-1 l-1-2 space-left">
+            <label class="mega" for="age">Age</label>
+            <input id="age" required>
+          </div>
+
+          <div class="pad-t unit xs-1 s-1 m-1 l-1-2 space-right">
+            <label class="mega" for="email">Email</label>
+            <input id="email" type="email">
+          </div>
+
+          <div class="pad-t unit xs-1 s-1 m-1 l-1-2 space-left">
+            <label class="mega" for="physical-fit">Physical fitness</label>
+            <select id="physical-fit" name="fitness">
+              <option>Super-human</option>
+              <option>Fit as a fiddle</option>
+              <option>Not terribly strong</option>
+              <option>A little couch-potato-y</option>
+            </select>
+          </div>
+
         </div>
-
-        <div class="pad-t unit xs-1 s-1 m-1 l-1-2 space-left">
-          <label class="mega" for="age">Age</label>
-          <input id="age" required>
+        <div class="pad-t">
+          <label class="mega" for="address">Address</label>
+          <input id="address" name="address">
         </div>
+      </fieldset>
 
-        <div class="pad-t unit xs-1 s-1 m-1 l-1-2 space-right">
-          <label class="mega" for="email">Email</label>
-          <input id="email" type="email">
+      <fieldset>
+        <legend class="italic tetra">Mission statement</legend>
+        <div class="pad-t">
+          <label for="details">Why do you want to go to Mars?</label>
+          <textarea id="details" name="details" required></textarea>
         </div>
+      </fieldset>
 
-        <div class="pad-t unit xs-1 s-1 m-1 l-1-2 space-left">
-          <label class="mega" for="physical-fit">Physical fitness</label>
-          <select id="physical-fit" name="fitness">
-            <option>Super-human</option>
-            <option>Fit as a fiddle</option>
-            <option>Not terribly strong</option>
-            <option>A little couch-potato-y</option>
-          </select>
-        </div>
-
+      <div class="text-center">
+        <button class="btn" type="submit">Register for the trip!</button>
       </div>
-      <div class="pad-t">
-        <label class="mega" for="address">Address</label>
-        <input id="address" name="address">
-      </div>
-    </fieldset>
 
-    <fieldset>
-      <legend class="italic tetra">Mission statement</legend>
-      <div class="pad-t">
-        <label for="details">Why do you want to go to Mars?</label>
-        <textarea id="details" name="details" required></textarea>
-      </div>
-    </fieldset>
+      <input type="hidden" name="_subject" value="Request to join the mission">
 
-    <div class="text-center">
-      <button class="btn" type="submit">Register for the trip!</button>
-    </div>
-
-    <input type="hidden" name="_subject" value="Request to join the mission">
-
-  </form>
-</div>
+    </form>
+  </div>
   <!-- </section> -->
 </body>
 </html>
