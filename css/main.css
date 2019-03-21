@@ -7,3 +7,7 @@
 h1 {
   border-bottom: 1px solid black;
 }
+
+.btn {
+  vertical-align: middle;
+}
